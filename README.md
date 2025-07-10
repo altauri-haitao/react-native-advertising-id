@@ -1,4 +1,5 @@
 
+# A fork, fix attstatus for ios 14 and above
 # react-native-advertising-id
 [![npm version](https://badge.fury.io/js/react-native-advertising-id.svg)](https://badge.fury.io/js/react-native-advertising-id)
 
