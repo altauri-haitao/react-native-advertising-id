@@ -18,10 +18,8 @@ class RNAdvertisingId: NSObject {
             "advertisingId" : ""
         ]
         
-        if (isAdvertisingTrackingEnabled) {
-            let idfa : String = ASIdentifierManager.shared().advertisingIdentifier.uuidString
-            response["advertisingId"] = idfa
-        }
+        let idfa : String = ASIdentifierManager.shared().advertisingIdentifier.uuidString
+        response["advertisingId"] = idfa
         
         resolve(response)
     }
